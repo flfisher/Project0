@@ -1,0 +1,107 @@
+p, .img-cont {
+  font-size: 24px;
+}
+
+.body-content {
+  background-image: url(/PG/B1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#home-background {
+  size: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+#logo {
+  width: 90%;
+}
+
+.align-links {
+  text-align: center;
+  margin: 10px;
+}
+
+.about-content {
+  text-align: center;
+  color: darkslategrey;
+}
+
+.links {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  padding: 2%;
+}
+
+.img-cont {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslategrey;
+}
+
+.pg {
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  margin: none;
+  border-radius: 10%;
+}
+
+#a1 {
+  width: 500px;
+  height: auto;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+p {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 641px) {
+  span::before {
+    content: "Web";
+  }
+}
+@media (max-width: 640px) {
+  span::before {
+    content: "Mobile";
+  }
+}
+footer {
+  text-align: center;
+  padding-top: 100px;
+}
+footer .foot {
+  display: inline-block;
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 30%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslategrey;
+}
+
+/*# sourceMappingURL=style.css.map */
